@@ -48,5 +48,23 @@
 			</plugin>
 		</plugins>
 	</build>
+	
+	<repositories>
+		<repository>
+			<id>central-repo</id>
+			<url>https://mymavenrepo.com/repo/m1h3cmtJX4ndZsyHra1k/</url>
+			<name>Intuit Nexus Cache</name>
+		</repository>
+	</repositories>
+	
+	<distributionManagement>
+		<repository>
+			<id>scm.int.rel.repo</id>
+			<name>RELEASE REPO</name>
+			<url>https://mymavenrepo.com/repo/K0UXr8RyrBjbFl9TH7Lq/</url>
+			<layout>default</layout>
+		</repository>
+	</distributionManagement>
+	
 
 </project>
